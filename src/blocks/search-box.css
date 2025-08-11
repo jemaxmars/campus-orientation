@@ -1,0 +1,27 @@
+
+.search-box {
+  margin-bottom: 32px;
+}
+
+.search-box__input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 2px solid #e2e8f0; 
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+  font-family: inherit;
+  background-color: white;
+  color: #1e293b;
+  box-sizing: border-box;
+}
+
+.search-box__input:focus {
+  outline: none;
+  border-color: #4f46e5; 
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.search-box__input::placeholder {
+  color: #94a3b8; 
+}
