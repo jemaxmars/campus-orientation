@@ -24,8 +24,14 @@
   padding: 12px 24px;
   border-radius: 8px;
   transition: all 0.2s ease-in-out;
-  background-color: white;
-  color: #1e293b;
+  background-color: #4f46e5;
+  color: white;
   border: none;
   cursor: pointer;
+}
+
+.nav__button:hover {
+ background-color: white;
+ color: #4f46e5;
+ border: 1px solid #4f46e5;
 }
