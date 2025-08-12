@@ -8,11 +8,8 @@ import "../blocks/faq.css";
 import "../pages/index.css";
 
 
-//store the application's important data  in variables
-
 let activeSectionId = "dining"; // id of the info card that is visible
 let currentSearchTerm = ""; //what user has typed into the search bar
-
 
 const navContainer = document.getElementById("main-nav");
 const contentContainer = document.getElementById("main-content");
@@ -34,7 +31,7 @@ const infoCards = {
 //functions
 
 //updates the nav buttons to show which one is active
- 
+
 function updateNavigationState() {
   navButtons.forEach((button) => {
     //if the button's id matches the active section id, add it
@@ -99,20 +96,19 @@ function renderContent() {
 
 // USED AI TO GENERATE THIS BLOCK OF CODE. (END OF AI GENERATED CODE)
 
-
- //runs when a user clicks a nav button
+//runs when a user clicks a nav button
 function handleNavClick(button) {
   //update the state with the id of button that was clicked
   activeSectionId = button.dataset.id;
-  currentSearchTerm = ""; // reset 
-  searchInput.value = ""; // clear 
+  currentSearchTerm = ""; // reset
+  searchInput.value = ""; // clear
 
   //re-render the page to show changes
   updateNavigationState();
   renderContent();
 }
 
-  //function runs whenever the user types in the search bar
+//function runs whenever the user types in the search bar
 function handleSearchInput(event) {
   // update the state with the new search term
   currentSearchTerm = event.target.value.trim();
@@ -135,9 +131,7 @@ function handleFaqClick(event) {
   }
 }
 
-
-
- //sets up the entire app
+//sets up the entire app
 function initializeApp() {
   //attach event listeners to the interactive elements
 

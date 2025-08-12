@@ -23,7 +23,6 @@ export const campusData = {
     },
   ],
 
-
   universityInfo: {
     name: "Starlight University",
     tagline: "Your Orientation Guide",

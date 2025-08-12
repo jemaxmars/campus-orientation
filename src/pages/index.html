@@ -4,21 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Campus Starter Guide</title>
-
-    <!-- G Fonts: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body class="body">
     <div class="container">
       <!-- Header & Nav-->
 
       <header class="header">
-        <h1 class="header__title">Starlight University</h1>
+        <div class="header__title header__title--logo">
+          <span class="visually-hidden">Starlight University</span>
+        </div>
         <p class="header__text">Your Orientation Guide</p>
       </header>
 
@@ -34,9 +28,8 @@
         </button>
       </nav>
 
-      
       <!--Searchbox-->
-      
+
       <div class="search-box">
         <input
           type="search"
@@ -46,15 +39,14 @@
         />
       </div>
 
-      
       <!-- Content display area -->
-      
+
       <main id="main-content">
         <!-- Dining Halls & Cafes Info Card -->
         <div class="info-card animate-fade-in" id="info-card-dining">
           <img
             class="info-card__image"
-            src="https://placehold.co/600x400/a5b4fc/ffffff?text=Dining+Hall"
+            src="https://shepleybulfinch.com/wp-content/uploads/2024/07/UNE.jpg"
             alt="Dining Halls & Cafes"
           />
           <div class="info-card__content">
@@ -76,7 +68,7 @@
         <div class="info-card animate-fade-in hidden" id="info-card-buildings">
           <img
             class="info-card__image"
-            src="https://placehold.co/600x400/7dd3fc/ffffff?text=Library"
+            src="https://www.sjsu.edu/studentunion/pics/22426597_1684404118299263_7751456728146661746_o.jpg"
             alt="Key Campus Buildings"
           />
           <div class="info-card__content">
@@ -100,7 +92,7 @@
         >
           <img
             class="info-card__image"
-            src="https://placehold.co/600x400/f9a8d4/ffffff?text=Campus+Life"
+            src="https://www.sjsu.edu/_images/people/ADV_campus-events-jgensheimer_1.jpg"
             alt="Campus Life & Events"
           />
           <div class="info-card__content">
@@ -118,7 +110,6 @@
         </div>
       </main>
 
-      
       <!-- FAQ Section-->
       <section class="faq" id="faq-section">
         <h2 class="faq__title">Frequently Asked Questions</h2>
@@ -162,6 +153,5 @@
     </div>
   </body>
 </html>
-
 
 <!-- USED AI TO HELP GENERATE PARTS OF HTML MARKUP SO I COULD FOCUS ON THE STYLING AND FUNCTIONALITY OF THE REST OF THE PROJECT. -->
